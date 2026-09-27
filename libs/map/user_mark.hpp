@@ -40,6 +40,7 @@ public:
     RoadWarningFirstToll,
     RoadWarningFirstFerry,
     TrafficLight,
+    CustomAlert,    // PoC: allerte traffico dinamiche (mapsX)
   };
 
   enum Type : uint32_t
@@ -58,6 +59,7 @@ public:
     DEBUG_MARK,  // Plain "DEBUG" results in a name collision.
     COLORED,
     TRAFFIC_LIGHT,
+    CUSTOM_ALERT,   // PoC: allerte traffico dinamiche (mapsX)
     USER_MARK_TYPES_COUNT,
     USER_MARK_TYPES_COUNT_MAX = 1000,
   };

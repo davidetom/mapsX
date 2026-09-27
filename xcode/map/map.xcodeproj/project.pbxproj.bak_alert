@@ -87,8 +87,6 @@
 		BBB7060C23E45F3400A7F29A /* isolines_manager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBB7060A23E45F3300A7F29A /* isolines_manager.hpp */; };
 		BBD9E2C61EE9D01900DF189A /* routing_mark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD9E2C41EE9D01900DF189A /* routing_mark.cpp */; };
 		BBD9E2C71EE9D01900DF189A /* routing_mark.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBD9E2C51EE9D01900DF189A /* routing_mark.hpp */; };
-		BBF229DE3069B43000630C09 /* custom_alert_mark.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBF229DC3069B43000630C09 /* custom_alert_mark.hpp */; };
-		BBF229DF3069B43000630C09 /* custom_alert_mark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBF229DD3069B43000630C09 /* custom_alert_mark.cpp */; };
 		BBFC7E3A202D29C000531BE7 /* user_mark_layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBFC7E38202D29BF00531BE7 /* user_mark_layer.cpp */; };
 		BBFC7E3B202D29C000531BE7 /* user_mark_layer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BBFC7E39202D29BF00531BE7 /* user_mark_layer.hpp */; };
 		ED49D74C2CEF3D69004AF27E /* elevation_info_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED49D74B2CEF3CE3004AF27E /* elevation_info_tests.cpp */; };
@@ -238,8 +236,6 @@
 		BBB7060A23E45F3300A7F29A /* isolines_manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = isolines_manager.hpp; sourceTree = "<group>"; };
 		BBD9E2C41EE9D01900DF189A /* routing_mark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = routing_mark.cpp; sourceTree = "<group>"; };
 		BBD9E2C51EE9D01900DF189A /* routing_mark.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = routing_mark.hpp; sourceTree = "<group>"; };
-		BBF229DC3069B43000630C09 /* custom_alert_mark.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = custom_alert_mark.hpp; sourceTree = "<group>"; };
-		BBF229DD3069B43000630C09 /* custom_alert_mark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = custom_alert_mark.cpp; sourceTree = "<group>"; };
 		BBFC7E38202D29BF00531BE7 /* user_mark_layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = user_mark_layer.cpp; sourceTree = "<group>"; };
 		BBFC7E39202D29BF00531BE7 /* user_mark_layer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = user_mark_layer.hpp; sourceTree = "<group>"; };
 		ED49D74B2CEF3CE3004AF27E /* elevation_info_tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = elevation_info_tests.cpp; sourceTree = "<group>"; };
@@ -394,8 +390,6 @@
 		675345BD1A4054AD00A0A8C3 /* map */ = {
 			isa = PBXGroup;
 			children = (
-				BBF229DC3069B43000630C09 /* custom_alert_mark.hpp */,
-				BBF229DD3069B43000630C09 /* custom_alert_mark.cpp */,
 				45201E921CE4AC90008A4842 /* api_mark_point.cpp */,
 				34921F611BFA0A6900737D6E /* api_mark_point.hpp */,
 				45580ABC1E2CBD5E00CD535D /* benchmark_tools.cpp */,
@@ -496,7 +490,6 @@
 				F6B283081C1B03320081957A /* gps_track_storage.hpp in Headers */,
 				675346A21A4054E800A0A8C3 /* user_mark.hpp in Headers */,
 				BBB7060C23E45F3400A7F29A /* isolines_manager.hpp in Headers */,
-				BBF229DE3069B43000630C09 /* custom_alert_mark.hpp in Headers */,
 				39E3C60323312BA800FB0C37 /* features_fetcher.hpp in Headers */,
 				BBA014AE2073C784007402E4 /* bookmark_helpers.hpp in Headers */,
 				F6B283061C1B03320081957A /* gps_track_filter.hpp in Headers */,
@@ -717,7 +710,6 @@
 				45580ABE1E2CBD5E00CD535D /* benchmark_tools.cpp in Sources */,
 				3DA5723220C195ED007BDE27 /* everywhere_search_callback.cpp in Sources */,
 				3DEE1AE121EE03B400054A91 /* power_management_schemas.cpp in Sources */,
-				BBF229DF3069B43000630C09 /* custom_alert_mark.cpp in Sources */,
 				BBD9E2C61EE9D01900DF189A /* routing_mark.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "alert-001",
+    "latitude": 45.0703,
+    "longitude": 7.6869,
+    "type": "police",
+    "description": "Posto di blocco su Via Roma"
+  },
+  {
+    "id": "alert-002",
+    "latitude": 45.0751,
+    "longitude": 7.6762,
+    "type": "accident",
+    "description": "Incidente in Corso Francia, 2 veicoli"
+  },
+  {
+    "id": "alert-003",
+    "latitude": 45.0688,
+    "longitude": 7.6907,
+    "type": "traffic_jam",
+    "description": "Coda di 3 km verso il centro"
+  },
+  {
+    "id": "alert-004",
+    "latitude": 45.0820,
+    "longitude": 7.6700,
+    "type": "hazard",
+    "description": "Detriti sulla carreggiata"
+  }
+]

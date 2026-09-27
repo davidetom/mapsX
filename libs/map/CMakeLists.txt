@@ -76,6 +76,8 @@ set(SRC
   viewport_search_params.hpp
   viewport_search_callback.cpp
   viewport_search_callback.hpp
+  custom_alert_mark.hpp
+  custom_alert_mark.cpp
 )
 
 if (PLATFORM_DESKTOP)

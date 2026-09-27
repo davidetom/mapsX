@@ -172,7 +172,6 @@
 			</array>
 		</dict>
 	</dict>
-	<!-- We don't support multiple windows on iPad -->
 	<key>UIApplicationSceneManifest~ipad</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -8,6 +8,9 @@
 
 #import "private.h"
 
+// ── Alert Traffic Bridge (PoC accademico) ──────────────────────────────────
+#import "AlertsBridge.h"
+
 #import <CoreApi/CoreApi.h>
 
 #import "MapControls.h"

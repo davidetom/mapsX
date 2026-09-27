@@ -15,6 +15,7 @@
 #import "MapViewController.h"
 #import "NSDate+TimeDistance.h"
 #import "SwiftBridge.h"
+#import "AlertsBridge.h"  // PoC: ponte alert traffico
 
 
 #import <CarPlay/CarPlay.h>
@@ -107,7 +108,18 @@ void InitLocalizedStrings() {
   [self updateApplicationIconBadgeNumber];
   [TrackRecordingManager.shared setup];
   [self startObservingLifecycle];
+
+  // ── PoC: Alert Traffic Bridge ─────────────────────────────────────────────
+  // AlertsBootstrap è una classe Swift @objc: l'unico punto di contatto tra
+  // ObjC++ e il layer Swift degli alert. Internamente gestisce il polling per
+  // il DrapeEngine e chiama AlertsManager + AlertsBridge (Swift puro).
+  [AlertsBootstrap startWhenReady];
+  // ─────────────────────────────────────────────────────────────────────────
 }
+
+// Nessun metodo setupAlertsBridgeWhenReady: la logica di polling e init
+// è ora interamente in AlertsBootstrap.swift (Swift puro), eliminando
+// qualsiasi dipendenza diretta ObjC→Swift su AlertsManager.
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [NSUserDefaults.standardUserDefaults setBool:false forKey:@"IsSearchPresented"];
